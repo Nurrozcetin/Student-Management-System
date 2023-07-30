@@ -65,4 +65,10 @@ public class student {
         System.out.println("Your payment " + payment);
         showBalance();
     }
+
+    // show info
+
+    public String showInfo() {
+        return "Name: " + firstName + " " + lastName + "\nCourses Enrolled: " + cources + "\nBalance: " + balance;
+    }
 }
